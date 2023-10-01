@@ -1,0 +1,17 @@
+{
+  "name": "fella_mongo_indexer",
+  "version": "1.0.0",
+  "description": "Index JSON files into MongoDB using Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "fixext": "node file_extension_fix.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.2.0",
+    "mongoose": "^5.13.12",
+    "path": "^0.12.7"
+  }
+}
