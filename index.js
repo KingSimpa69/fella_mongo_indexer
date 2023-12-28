@@ -11,6 +11,7 @@ mongoose.connect(`${mongoUrl}/${databaseName}`, { useNewUrlParser: true, useUnif
 const db = mongoose.connection;
 
 const schema = new mongoose.Schema({
+  _id: Number,
   description: String,
   name: String,
   image: String,
@@ -19,8 +20,7 @@ const schema = new mongoose.Schema({
     value: String,
   }],
 });
-
-const YourModel = mongoose.model('FellaSchema', schema, collectionName);
+const Model = mongoose.model('FellaSchema', schema, collectionName);
 
 function insertJsonFile(jsonFilePath, callback) {
   fs.readFile(jsonFilePath, 'utf8', (err, data) => {
@@ -31,7 +31,10 @@ function insertJsonFile(jsonFilePath, callback) {
 
     try {
       const jsonData = JSON.parse(data);
-      const newDocument = new YourModel(jsonData);
+      const filenameWithoutExtension = jsonFilePath.split('/').pop().replace('.json', '');
+      jsonData._id = parseInt(filenameWithoutExtension);
+
+      const newDocument = new Model(jsonData);
 
       newDocument.save((saveErr) => {
         if (saveErr) {
