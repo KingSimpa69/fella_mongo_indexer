@@ -7,7 +7,7 @@
     "start": "node index.js",
     "fixext": "node file_extension_fix.js"
   },
-  "author": "Your Name",
+  "author": "KingSimpa69",
   "license": "MIT",
   "dependencies": {
     "async": "^3.2.0",
