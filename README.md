@@ -11,6 +11,10 @@ Once you have your gateway, navigate to the Based Fellas directory:
 For example, if you're using the `ipfs.io` gateway, the URL would be:
 [https://ipfs.io/ipfs/bafybeigr7b3cbyrhyjnmv6nx7itr7v25ghqqhfzb23owwvtmaj7vh5vlr4/](https://ipfs.io/ipfs/bafybeigr7b3cbyrhyjnmv6nx7itr7v25ghqqhfzb23owwvtmaj7vh5vlr4/)
 
+
+Based Fellas now has it's own dedicated gateway with the collection pinned, here is an example using our gateway:
+[https://ipfs.basedfellas.io/ipfs/bafybeigr7b3cbyrhyjnmv6nx7itr7v25ghqqhfzb23owwvtmaj7vh5vlr4/](https://ipfs.basedfellas.io/ipfs/bafybeigr7b3cbyrhyjnmv6nx7itr7v25ghqqhfzb23owwvtmaj7vh5vlr4/)
+
 To download the archive file, simply add the following URL parameters:
 - `download=true`
 - `format=tar`
