@@ -23,4 +23,4 @@ To download the archive file, simply add the following URL parameters:
 - `filename=metadata.tar`
 
 ### Example download link:
-[https://ipfs.io/ipfs/bafybeigr7b3cbyrhyjnmv6nx7itr7v25ghqqhfzb23owwvtmaj7vh5vlr4/?download=true&format=tar&filename=metadata.tar](https://ipfs.io/ipfs/bafybeigr7b3cbyrhyjnmv6nx7itr7v25ghqqhfzb23owwvtmaj7vh5vlr4/?download=true&format=tar&filename=metadata.tar)
+[https://ipfs.basedfellas.io/ipfs/bafybeigr7b3cbyrhyjnmv6nx7itr7v25ghqqhfzb23owwvtmaj7vh5vlr4/?download=true&format=tar&filename=metadata.tar](https://ipfs.io/ipfs/bafybeigr7b3cbyrhyjnmv6nx7itr7v25ghqqhfzb23owwvtmaj7vh5vlr4/?download=true&format=tar&filename=metadata.tar)
